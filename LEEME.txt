@@ -1,0 +1,19 @@
+Versión de PHP: 8.2.4
+Versión del servidor: 10.4.28-MariaDB 
+
+Para la instalación:
+
+1) Agregar los archivos en el entorno donde esté activado Apache y MySQL.
+
+2) En el archivo "config.php" se encontrará con las siguientes variables para acceder a la Base de Datos:
+
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "prueba_desis";
+
+  Cambiarlos según su configuración.
+
+3) Una vez conectada la Base de Datos, ejecutar el archivo "crear_rellenar_tablas.sql" que se encuentra en la carpeta "sql"
+
+4) Abrir navegador utilizando la URL "su_nombre_localhost/inicio.php"
